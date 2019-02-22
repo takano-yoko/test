@@ -28,8 +28,8 @@ public class MapSample {
 
 	System.out.println(value);
 
-	String valueNull = map.get("key6"); //存在しない key の場合は null
-	System.out.println(valueNull);
+	String valueNull2 = map.get("key6"); //存在しない key の場合は null
+	System.out.println(valueNull2);
 
 
 
