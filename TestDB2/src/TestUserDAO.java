@@ -6,19 +6,19 @@ public class TestUserDAO{
 
 	String name="";
 	String password="";
-	public void insert（int user_id,String name,String password){
+
+	public void delete(String name){
 		DBConnector db=new DBConnector();
 		Connection con=db.getConnection();
 
-		String sql="insert into test_table values(?,?,?)";
+		String sql="delete from test_table where user_name=?";
 		try{
 			PreparedStatement ps=con.prepareStatement(sql);
-			ps.setInt(1, user_id);
-			ps.setString(2, name);
-			ps.setString(3,password);
+			ps.setString(1,name);
+
 			int i=ps.executeUpdate();
 			if(i>0){
-				System.out.println(i+"件登録されました");
+				System.out.println(i+"件削除されました");
 				}
 					}catch (SQLException e){
 						e.printStackTrace();
