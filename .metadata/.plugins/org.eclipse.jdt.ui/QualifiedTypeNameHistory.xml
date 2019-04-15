@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.Driver"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj4.util.DBConnector"/>
 </qualifiedTypeNameHistroy>

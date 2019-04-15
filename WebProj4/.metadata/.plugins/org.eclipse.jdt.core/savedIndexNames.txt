@@ -1,0 +1,26 @@
+INDEX VERSION 1.127+C:\Users\testuser\Desktop\Workspace\workspace-takano\test\WebProj4\.metadata\.plugins\org.eclipse.jdt.core
+2055351946.index
+2533190103.index
+2226854440.index
+969968605.index
+2795787554.index
+3560519425.index
+3014424452.index
+991517332.index
+3522859184.index
+2573306658.index
+3842635546.index
+3148193508.index
+2530802075.index
+3474152380.index
+3915913391.index
+2440513215.index
+758380915.index
+3515735306.index
+4222298462.index
+1549101164.index
+3542312921.index
+3436260346.index
+932022933.index
+3935533054.index
+592658782.index
