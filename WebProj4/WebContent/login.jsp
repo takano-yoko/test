@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<s:property value="LoginDTOList.get(0).username"/>さん。、ようこそ！
+<s:property value="LoginDTOList.get(0).username"/>さん、ようこそ！
 <br>
 <table>
 <tbody>
