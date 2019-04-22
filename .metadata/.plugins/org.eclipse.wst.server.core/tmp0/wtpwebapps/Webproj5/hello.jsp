@@ -26,7 +26,7 @@
 	<tr>
 	<td><s:property value="userId"/></td>
 	<td><s:property value="userName"/></td>
-	<td><s:property value="userword"/></td>
+	<td><s:property value="password"/></td>
 	<td><s:property value="result"/></td>
 	</tr>
 
