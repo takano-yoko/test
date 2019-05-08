@@ -9,7 +9,6 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="imagetoolbar" content="no" />
-
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <title>Home画面</title>
@@ -67,7 +66,8 @@ table{
 <body>
 
 <div id="header">
-<div id="pr"></div>
+<div id="pr">
+</div>
 </div>
 
 <div id="main">
