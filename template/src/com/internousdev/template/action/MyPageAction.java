@@ -2,7 +2,9 @@ package com.internousdev.template.action;
 
 import java.sql.SQLException;
 import java.util.Map;
+
 import org.apache.struts2.interceptor.SessionAware;
+
 import com.internousdev.template.dao.MyPageDAO;
 import com.internousdev.template.dto.MyPageDTO;
 import com.opensymphony.xwork2.ActionSupport;
@@ -26,9 +28,10 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 			session.put("total_count",myPageDTO.getTotalCount());
 			session.put("total_payment",myPageDTO.getPayment());
 			session.put("message","");
+
 			// 商品履歴を削除する場合
 
-			else if(deleteFlg.equals("1")){
+		}else if(deleteFlg.equals("1")){
 		delete();
 	}
 			result = SUCCESS;

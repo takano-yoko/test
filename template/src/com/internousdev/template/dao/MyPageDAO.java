@@ -39,7 +39,7 @@ public class MyPageDAO {
 		}
 		return myPageDTO;
 	}
-	public int duyItemHistoryDelete(String item_transaction_id,String user_master_id)
+	public int buyItemHistoryDelete(String item_transaction_id,String user_master_id)
 	 throws SQLException{
 		DBConnector dbConnector = new DBConnector();
 		Connection connection = dbConnector.getConnection();
